@@ -11,6 +11,7 @@ import {
   extendTheme,
   VStack,
   Box,
+  FormControl,
 } from "native-base";
 import NativeBaseIcon from "./components/NativeBaseIcon";
 import { Platform } from "react-native";
@@ -35,7 +36,7 @@ export default function App() {
       >
         <VStack space={5} alignItems="center">
           <NativeBaseIcon />
-          <Heading size="lg">Welcome to NativeBase</Heading>
+          <Heading size="lg">Welcome to Cost Splitter</Heading>
           <HStack space={2} alignItems="center">
             <Text>Edit</Text>
             <Box
